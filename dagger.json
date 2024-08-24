@@ -1,0 +1,24 @@
+{
+  "name": "aws-ts-containers-dagger",
+  "sdk": "typescript",
+  "dependencies": [
+    {
+      "name": "aws-ecr",
+      "source": "github.com/mjb141/daggerverse/aws-ecr@5b9948571394a9210a5b82989841ac5479472e1d"
+    },
+    {
+      "name": "docusaurus",
+      "source": "github.com/levlaz/daggerverse/docusaurus@6c7c28cd95a9636a04768c8de8b658d724cdecb3"
+    },
+    {
+      "name": "esc",
+      "source": "github.com/jpadams/pulumi-esc-dagger-module@1d3ed2464ed19673a982eeed81e79ab42f437ec4"
+    },
+    {
+      "name": "pulumi",
+      "source": "github.com/matipan/daggerverse/pulumi@0022951a290b16f0cd005fe6e3a6fa4bfd8b9126"
+    }
+  ],
+  "source": "dagger",
+  "engineVersion": "v0.12.5"
+}

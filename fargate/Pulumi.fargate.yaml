@@ -1,0 +1,5 @@
+name: pulumi-fargate-dagger
+description: An example that builds a Docker image and deploys a container to AWS Fargate.
+runtime: nodejs
+environment:
+  - aws-ecs-demo

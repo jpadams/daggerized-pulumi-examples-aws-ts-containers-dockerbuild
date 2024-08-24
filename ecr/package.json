@@ -1,0 +1,11 @@
+{
+    "name": "aws-ts-containers-dockerbuildcloud",
+    "main": "index.ts",
+    "dependencies": {
+        "@pulumi/awsx": "^2.13.0",
+        "@pulumi/pulumi": "^3.124.0"
+    },
+    "devDependencies": {
+        "@types/node": "^20.14.10"
+    }
+}
